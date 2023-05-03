@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+header{
+    padding: 15px 0;
+}
+header img{
+    position: absolute;
+    left: 16px;
+    top: 22px;
+    margin-left: 80px;
+}
+nav ul{
+    display: flex;
+    margin-left: 23%;
+    margin-top: 2%;
+    gap: 30px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 700;
+}
+nav button{
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    position: absolute;
+    top: 22px;
+    right: 100px;
+    background-color: rgb(113, 43, 212);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+nav button:hover{
+    background-color: white;
+    color: rgb(113, 43, 212);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-section{
+    width: 30%;
+}
+.left-section h1{
+    font-size: 60px;
+    font-family: 'Poppins';
+    color: rgb(56, 3, 106);
+    
+}
+.left-section h1 span{
+    color: rgb(113, 43, 212);
+}
+.left-section p{
+    margin: 5% 0;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15px;
+}
+.left-section button{
+    padding:15px 20px;
+    font-size: 18px;
+    background-color: rgb(113, 43, 212);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.left-section button:hover{
+    background-color: white;
+    color: rgb(113, 43, 212);
+}
+.right-section img{
+    height: 600px;
+    width: 825px;
+}
