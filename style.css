@@ -6,74 +6,90 @@
 }
 header{
     padding: 15px 0;
+    background-color: black;
+    height: 80px;
+}
+body{
+    width: 100%;
+    background-image: url("bg.png");
+    background-repeat: inherit;
+    background-attachment:fixed;
+    background-position: center;
 }
 header img{
     position: absolute;
     left: 16px;
-    top: 22px;
-    margin-left: 80px;
+    top: 18px;
+    margin-left: 30px;
+    height: 50px;
 }
 nav ul{
     display: flex;
-    margin-left: 23%;
-    margin-top: 2%;
+    color: white;
     gap: 30px;
     font-family: 'Poppins';
-    font-size: 15px;
-    font-weight: 700;
+    margin-left: 23%;
+    margin-top: 1%;
 }
 nav button{
     padding: 15px 20px;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 13px;
     position: absolute;
-    top: 22px;
-    right: 100px;
-    background-color: rgb(113, 43, 212);
+    top: 18px;
+    right: 30px;
+    background-color: rgb(208, 59, 228);
     color: white;
     border: none;
     border-radius: 10px;
 }
 nav button:hover{
     background-color: white;
-    color: rgb(113, 43, 212);
+    color: rgb(208, 59, 228);
 }
 main{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-.left-section{
-    width: 30%;
+section{
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
 }
-.left-section h1{
+section h1{
+    color: white;
     font-size: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: center;
     font-family: 'Poppins';
-    color: rgb(56, 3, 106);
-    
 }
-.left-section h1 span{
-    color: rgb(113, 43, 212);
-}
-.left-section p{
-    margin: 5% 0;
+section p{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: center;
     font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 15px;
+    padding: 5px 0;
 }
-.left-section button{
-    padding:15px 20px;
+section button{
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    padding: 15px 20px;
     font-size: 18px;
-    background-color: rgb(113, 43, 212);
+    background-color:  rgb(208, 59, 228);
     color: white;
     border: none;
     border-radius: 10px;
 }
-.left-section button:hover{
+section button:hover{
     background-color: white;
-    color: rgb(113, 43, 212);
-}
-.right-section img{
-    height: 600px;
-    width: 825px;
+    color: rgb(208, 59, 228);
+
 }
